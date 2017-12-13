@@ -1,0 +1,40 @@
+.table{
+    width: auto;
+    border: 1px solid #D0D0D0;
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+.table thead{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.table th,
+.table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #D0D0D0;
+    text-align: center;
+    color: #555;
+}
+
+.table th{
+    border-bottom: 2px solid #D0D0D0;
+}
+
+.table tr td{
+    background-color: #DFDFDF;
+}
+
+.table tr:nth-child(even) td{
+    background-color: #F9FAFB;
+}
+
+.table tr:last-child {
+    border-bottom: none;
+}
+
+.table tr td.alert{
+    color: red;
+    font-weight: 600;
+}

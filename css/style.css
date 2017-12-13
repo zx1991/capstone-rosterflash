@@ -1,0 +1,204 @@
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html{height:100%}
+
+body{
+    float:left;
+    width:100%;
+    height:100%;
+}
+
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-header{
+    background-color: #555;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.site-header-inner {
+    height: 4.2em;
+}
+
+.site-footer{
+    background-color: #555;
+}
+
+.site-footer-inner{
+    height: 5em;
+}
+
+.site-main{
+    background-color: #e1e1e1;
+    width: 100%;
+    height: 80%;
+}
+
+.site-main-inner{
+    height: 100%;
+}
+
+.sidebar{
+    height: 100%;
+    width: 18%;
+    background:#f0f0f0;
+    float: left;
+}
+
+.content{
+    height: 100%;
+    width: 82%;
+    background-color: #eaeaea;
+    float: right;
+    overflow: scroll;
+}
+
+.content-inner{
+    width: 90%;
+    margin: 2em auto 0 auto;
+}
+
+.site-logo,
+.site-menu,
+.nav-link,
+.logout{
+    padding: 20px 10px;
+    color: #fff;
+}
+
+.site-logo {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    float: left;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    padding-left: 0;
+}
+
+.site-menu{
+    float: left;
+}
+
+.logout{
+    float: right;
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.2em;
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.present{
+    background: #fff;
+    color: #555;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active{
+    background: #fff;
+    color: #555;
+}
+
+.logout a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.logout:hover,
+.logout:focus,
+.logout:active{
+    background: #a57078;
+}
+
+.sidebar ul{
+    clear: both;
+}
+
+.sidebar li{
+    list-style: none;
+}
+
+.sidebar a{
+    text-decoration: none;
+    display: block;
+   
+    width: 70%;
+    margin: 10% auto;
+    padding: 20px 10px;
+    text-align: center;
+    color: #555;
+    font-size: 1.1em;
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.sidebar a:hover{
+    background: #2288bb;
+    color: #ffffff;
+}
+
+.sidebar a.present{
+    background: #3399cc;
+    color: #ffffff;
+}
+
+.styled-select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(../images/1.png) no-repeat 96% 0 #3399cc;
+    height: 1.9em;
+    overflow: hidden;
+    width: 100%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    padding:0 14px;
+    margin: 1.5em 0 0 0;
+    color: #ffffff;
+}
+
+.CourseManagement{
+    
+    width: 20%;
+     position: fixed;;
+   Top : 200px;
+    float: left;
+    
+    
+}
+
+.Rostermanagement{
+    
+    width: 60%;
+    float: right;
+    
+}
+
+.CourseManagement form{
+    
+       border: 5px solid #ffffff;
+    
+    width: 80%;
+    padding: 10px;
+    
+}
